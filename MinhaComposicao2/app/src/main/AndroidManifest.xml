@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.alvesds.minhacomposicao">
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <uses-feature android:name="android.hardware.type.watch" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".View.Activities.TodosMembrosDiferentes" />
+        <activity android:name=".View.Activities.CoxaMedialeDistalDiferentes" />
+        <activity android:name=".View.Activities.PerimetriaActivity" />
+        <activity android:name=".View.Activities.RcqNormalActivity" />
+        <activity android:name=".View.Activities.AntebracosDiferentesActivity" />
+        <activity android:name=".View.Activities.AntebracoCoxaDistalDiferentes" />
+        <activity android:name=".View.Activities.AntebracoCoxaMedialDiferentes" />
+        <activity android:name=".View.Activities.AntebracoCoxaProximalDiferentes" />
+        <activity android:name=".View.Activities.AntebracoPanturrilhaDiferentes" />
+        <activity android:name=".View.Activities.BracosDiferentes" />
+        <activity android:name=".View.Activities.CoxaProximalDiferentes" />
+        <activity android:name=".View.Activities.CoxaMedialDiferentes" />
+        <activity android:name=".View.Activities.CoxaProximalEPanturrilhasDiferentes" />
+        <activity android:name=".View.Activities.CoxaDistalDiferentes" />
+        <activity android:name=".View.Activities.PanturrilhaDiferentes" />
+        <activity android:name=".View.Activities.BracoAntebracoDiferentes" />
+        <activity android:name=".View.Activities.BracoCoxaProximalDiferentes" />
+        <activity android:name=".View.Activities.BracoCoxaMedialDiferentes" />
+        <activity android:name=".View.Activities.BracoCoxaDistalDiferentes" />
+        <activity android:name=".View.Activities.BracoPanturrilhaDiferentes" />
+        <activity android:name=".View.Activities.CoxaProximalEDistalDiferentes" />
+        <activity android:name=".View.Activities.CoxaProximalEMedialDiferentes" />
+        <activity android:name=".View.Activities.CoxaDistalPanturrilhaDiferentes" />
+        <activity android:name=".View.Activities.AltoRcqActivity" />
+        <activity android:name=".View.Activities.CalculoRcqActivity" />
+        <activity android:name=".View.Activities.ProtocolosDobrasActivity" />
+        <activity android:name=".View.Activities.BaixoPesoActivity" />
+        <activity android:name=".View.Activities.ObesoActivity" />
+        <activity android:name=".View.Activities.SobrepesoActivity" />
+        <activity android:name=".View.Activities.EutroficoActivity" />
+        <activity android:name=".View.Activities.CalculoImcActivity" />
+        <activity android:name=".View.Activities.CadastroActivity" />
+        <activity android:name=".View.Activities.TelaPrincipalActivity" />
+        <activity android:name=".View.Activities.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

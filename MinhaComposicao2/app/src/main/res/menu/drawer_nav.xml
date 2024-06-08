@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_falkner_1"
+            android:icon="@drawable/botao_menu_procolo_faulkner_foreground"
+            android:title="Faulkner"
+            android:visible="true" />
+        <item android:id="@+id/nav_guedes_1"
+            android:icon="@drawable/botao_menu_procolo_guedes_foreground"
+            android:title="Guedes"/>
+        <item android:id="@+id/nav_pollock3_1"
+            android:icon="@drawable/botao_menu_procolo_pollock_3_foreground"
+            android:title="Pollock 3 dobras"/>
+        <item android:id="@+id/nav_pollock7_1"
+            android:icon="@drawable/botao_menu_procolo_pollock_7_foreground"
+            android:title="Pollock 7 dobras"/>
+    </group>
+
+</menu>

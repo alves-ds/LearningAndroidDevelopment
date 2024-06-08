@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/nav_faulkner"
+        android:icon="@drawable/botao_menu_procolo_faulkner_foreground"
+        android:title="Faulkner"
+        app:cnb_backgroundColor="#FFFFFF"
+        app:cnb_iconColor="#B71C1C"
+        app:cnb_textColor="#B71C1C" />
+
+    <item
+        android:title="Guedes"
+        android:icon="@drawable/botao_menu_procolo_guedes_foreground"
+        android:id="@+id/nav_guedes"
+        app:cnb_backgroundColor="#FFFFFF"
+        app:cnb_iconColor="#B71C1C"
+        app:cnb_textColor="#B71C1C"/>
+
+    <item
+        android:title="Pollock 3 dobras"
+        android:icon="@drawable/botao_menu_procolo_pollock_3_foreground"
+        android:id="@+id/nav_pollock_3"
+        app:cnb_backgroundColor="#FFFFFF"
+        app:cnb_iconColor="#B71C1C"
+        app:cnb_textColor="#B71C1C"/>
+
+    <item
+        android:title="Pollock 7 dobras"
+        android:icon="@drawable/botao_menu_procolo_pollock_7_foreground"
+        android:id="@+id/nav_pollock_7"
+        app:cnb_backgroundColor="#FFFFFF"
+        app:cnb_iconColor="#B71C1C"
+        app:cnb_textColor="#B71C1C"/>
+</menu>

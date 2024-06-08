@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/nav_historico"
+        android:icon="@drawable/botao_historico_praticante_foreground"
+        android:title="@string/texto_botton_bar_historico"
+        app:cnb_backgroundColor="#FFFFFF"
+        app:cnb_iconColor="#B71C1C"
+        app:cnb_textColor="#B71C1C" />
+
+    <item
+        android:title="@string/texto_botton_bar_antropometria"
+        android:icon="@drawable/botao_medidas_antropometricas_foreground"
+        android:id="@+id/nav_antropo"
+        app:cnb_backgroundColor="#FFFFFF"
+        app:cnb_iconColor="#B71C1C"
+        app:cnb_textColor="#B71C1C"/>
+
+    <item
+        android:title="@string/texto_botton_bar_outras_medidas"
+        android:icon="@drawable/botao_outras_medidas_foreground"
+        android:id="@+id/nav_outras_medidas"
+        app:cnb_backgroundColor="#FFFFFF"
+        app:cnb_iconColor="#B71C1C"
+        app:cnb_textColor="#B71C1C"/>
+</menu>
